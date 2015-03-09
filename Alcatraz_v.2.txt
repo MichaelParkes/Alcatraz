@@ -1,0 +1,120 @@
+﻿				//Prime read line
+15 28				//y & x size of map
+        ██▓██               
+        █░║░██████          
+     ████░║░░░░░░████       
+    ██o█░░╠════════o█       
+     █║░░░║########║█       
+   ███║░░░║########║████▓██ 
+████░░║░░░║░░░░░░░░║░░░░║░██
+█o════╬═══╬════════╬════╬═o█
+████░░║░░░║░░░░░░░░║░░░░║░██
+   ███║░░░║########║████▓██ 
+     █║░░░║########║█       
+    ██o█░░╠════════o█       
+     ████░║░░░░░░████       
+        █░║░██████          
+        ██▓██               
+13				//Number of rooms
+5				//Starting room
+--------------------
+0 0
+Port Airlock
+"It is inadvisable to open this airlock during insterstellar transit."
+0 10
+2 5
+--------------------
+1 0
+Port Auxiliary Drive
+"The container on the table is either full of coffee or rust remover."
+3 6
+12
+--------------------
+2 3
+Port Observation
+"It's a nice view."
+3 19
+0 6
+--------------------
+3 2
+Port Escape Pods
+"Sweet freedom!"
+5 24
+7
+--------------------
+4 0
+Primary Drive
+"It's bascially a poorly maintained fusion reactor. Which is comforting."
+7 1
+12
+--------------------
+5 1
+Aft Junction
+"This corridor connects the engineering and incarceration sectors of the Alcatraz."
+7 10
+0 6 11 12
+--------------------
+6 1
+Forward Junction
+"This corridor connects the command and barracks sectors of the Alcatraz."
+7 19
+2 5 7 10
+--------------------
+7 4
+Bridge
+"This is prime real estate for boss fight of some kind."
+7 24
+3 6 8
+--------------------
+8 2
+Starboard Escape Pods
+"To the stars!"
+9 24
+7
+--------------------
+9 0
+Starboard Auxiliary Drive
+"Someone has snuck a cat aboard. There is hair floating everywhere."
+11 6
+12
+--------------------
+10 3
+Starboard Observation
+"Take a moment during this crisis to stare out into the starry void and wonder at the majesty of it all."
+11 19
+6 11
+--------------------
+11 0
+Starboard Airlock
+"Someone had the foresight to lock the inner door, which you wouldn't have known if you didn't try to open it."
+14 9
+5 10
+--------------------
+12 0
+Engineering Lounge
+"On a much better day, the off-duty crew would be in here reciting space chanties."
+7 6	
+1 4 5 9
+--------------------
+00 00	//Room number & RoomType enum
+Name	//Room name
+Description	//Long string description, printed once on entry
+14 9	//y & x coordinates
+5 10	//Adjacent rooms
+--------------------
+REFERENCE MAP
+        ██0██               
+        █░║░██████          
+     ████░║░░░░░░████       
+    ██1█░░╠════════2█       
+     █║░░░║########║█       
+   ███║░░░║########║████3██ 
+████░░║░░░║░░░░░░░░║░░░░║░██
+█4════12══5════════6════7═■█
+████░░║░░░║░░░░░░░░║░░░░║░██
+   ███║░░░║########║████8██ 
+     █║░░░║########║█       
+    ██9█░░╠════════10       
+     ████░║░░░░░░████       
+        █░║░██████          
+        ██11█               
